@@ -54,12 +54,8 @@ class CreateAccountViewController: UIViewController {
     
     @IBAction func didTapCreate(_ sender: UIButton) {
         createAccount()
-        
     }
     
-    @IBAction func didTapAlreadyHaveAccount(_ sender: UIButton) {
-        
-    }
     
     private func alert(title: String, message: String){
         var alertVC = UIAlertController(title: title, message: message, preferredStyle: .alert)
